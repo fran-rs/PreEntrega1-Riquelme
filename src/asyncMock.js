@@ -3,7 +3,7 @@ const products = [
     id: "1",
     name: "bota negra",
     price: 80000,
-    category: "calzado",
+    category: "bota",
     img: "https://www.pollini.cl/101804-home_default/bota-casual-pollini.jpg",
     stock: 10,
     description: "calzado de cuero",
@@ -34,4 +34,12 @@ export const getProducts = () => {
             resolve(products)
         }, 500)
     })
+}
+
+export const getProductById = (productId) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(products.find(prod => prod.id === productId))
+    }, 500)
+  })
 }
