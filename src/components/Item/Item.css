@@ -1,0 +1,7 @@
+.CardItem {
+    border: 1px solid gainsboro;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    flex-basis: 33%;
+    background-color: lavender;
+}

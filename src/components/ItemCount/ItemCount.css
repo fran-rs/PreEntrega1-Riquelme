@@ -1,0 +1,15 @@
+.Counter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.Controls .Button {
+  padding: 0.5rem 1rem;
+}

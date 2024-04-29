@@ -1,0 +1,26 @@
+.NavBar {
+  display: flex;
+  background-color: mediumpurple;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  padding: .5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.NavBar .Categories {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+button {
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 4px;
+  background-color: blueviolet;
+  color: white;
+}
+
